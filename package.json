@@ -1,7 +1,7 @@
 {
-  "name": "JATE",
+  "name": "jate",
   "version": "1.0.0",
-  "description": "",
+  "description": "Progressive Web Applications (PWA): Text Editor",
   "main": "server.js",
   "scripts": {
     "start:dev": "concurrently \"cd server && npm run server\" \"cd client && npm run dev\"",
@@ -12,8 +12,8 @@
     "client": "cd client && npm start"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Cynthia Mory",
+  "license": "MIT",
   "dependencies": {
     "css-loader": "^6.8.1",
     "express": "^4.17.1",
@@ -25,5 +25,13 @@
     "concurrently": "^5.2.0",
     "html-webpack-plugin": "^5.5.3",
     "nodemon": "^2.0.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cynthiamory/Oh-JATE.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cynthiamory/Oh-JATE/issues"
+  },
+  "homepage": "https://github.com/cynthiamory/Oh-JATE#readme"
 }
