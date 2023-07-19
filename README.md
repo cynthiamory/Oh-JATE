@@ -6,7 +6,7 @@ Progressive Web Applications (PWA): Text Editor
 - [Description](#description)
 - [User Story](#user-story)
 - [Acceptance Criteria](#acceptance-criteria)
-- [Preview GIF](#preview-gif) 
+- [Preview Images](#preview-images) 
 - [Link To Live URL](#link-to-live-url)
 - [Installation and Usage](#installation-and-usage)
 - [Tests](#tests)
@@ -56,11 +56,26 @@ WHEN I deploy to Heroku
 THEN I should have proper build scripts for a webpack application
 ```
 
-## Preview GIF
-- ## Preview - Insomnia Test Functionality
-![Preview GIF](./assets/insomnia_preview.gif)
+## Preview Images
+- ## Preview - JATE
+![Preview Image](./images/jate-1.png)
 
-## Link To Walkthru Video
+- ## Preview - Manifest
+![Preview Image](./images/jate-manifest.png)
+
+- ## Preview - Service Workers
+![Preview Image](./images/jate-service-workers.png)
+
+- ## Preview - Storage
+![Preview Image](./images/jate-storage.png)
+
+- ## Preview - Local Storage
+![Preview Image](./images/jate-localstorage-3000.png)
+
+- ## Preview - Install Offline App
+![Preview Image](./images/jate-install-offline-app.png)
+
+## Link To Live URL
 **Walkthrough Video:** [Link To Live URL](link) 
 
 
@@ -70,41 +85,13 @@ THEN I should have proper build scripts for a webpack application
 ```bash
 npm init
 ```
-#### Install Dependencies
+#### Install Dependencies the root of the directory using the command:
 ```bash
 npm install
 ```
-- You can also install dependcies indivually by running the following commands:
-
-   - Express will be npm i express@4.18.2
-   - Dotenv will be npm i dotenv
-   - Mongoose will be npm i mongoose
-   - Modemon will be npm i nodemon
-   - Jest will be npm i jest
-
-
-#### Run the application to initiate the server using Command: 
+#### Run the application to initiate the server using Command at the root of the directory: 
 ```bash
 npm run start:dev
-```
-#### Now you can leverage Insomnia to test the application's local server: http://localhost:3001. It provides a set of API routes, including GET, POST, PUT, and DELETE, for users, thoughts, and reactions. These routes are designed to facilitate seamless operations such as creating, updating, and deleting data in the database.
-
-## Available Endpoints
-```md
-1. GET /api/users - get ALL users
-2. GET /api/users/:userId - get SINGLE user by ID
-3. POST /api/users - create a user
-4. PUT /api/users/:userId - update a user by ID
-5. DELETE /api/users/:userId - delete a user by ID
-6. GET /api/thought - get all thought
-7. GET /api/thought/:thoughtId - get a single thought by ID
-8. POST /api/thought - create a new thought
-9. PUT /api/thought/:thoughtId - update a thought by ID
-10. DELETE /api/thought/:thoughtId - delete a thought by ID
-11. POST /api/thought/:thoughtId/reactions - add a reaction to a thought
-12. DELETE /api/thought/:thoughtId/reactions/:reactionId - Delete a reaction from a thought
-13. POST /api/users/:userId/friends/:friendId - add a friend to a user's friend list
-14. DELETE /api/users/:userId/friends/:friendId - remove a friend from a user's friend list
 ```
 
 ## Tests
@@ -131,7 +118,7 @@ Assignment was built with:
 - Instructor: Ali Masqood 
 - Tutor: Jose Lopez 
 - Learing Assistant Ask BCS Support: Benicio aka blopez on Slack
-- Online Support: W3Schools, Youtube, SQL Shack, mySQL, Stack Overflow, Sequelize.org
+- Online Support: W3Schools, Youtube, Stack Overflow
 - License badges: Sheilds.io
 
 
