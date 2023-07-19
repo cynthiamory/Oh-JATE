@@ -76,7 +76,11 @@ THEN I should have proper build scripts for a webpack application
 ![Preview Image](./images/jate-install-offline-app.png)
 
 ## Link To Live URL
-**Walkthrough Video:** [Link To Live URL](link) 
+
+**Oh JATE on Heroku:** [Link To Live URL](https://oh-jate-df48566a1d41.herokuapp.com/) 
+### this application is deployed live via Heroku, and can be accessed via the link above.
+- ## Preview - Live On Heroku
+![Preview Image](./images/jate-liveURL-screenshot.png)
 
 
 ## Installation and Usage
