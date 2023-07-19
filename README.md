@@ -129,9 +129,8 @@ Assignment was built with:
 - Institution: The University Of Toronto
 - Course: Bootcamp Full Stack Development
 - Instructor: Ali Masqood 
-- Sub Instructor: Edward J. Apostol
 - Tutor: Jose Lopez 
-- Learing Assistant Ask BCS Support: Conner Hollis aka chollis on Slack
+- Learing Assistant Ask BCS Support: Benicio aka blopez on Slack
 - Online Support: W3Schools, Youtube, SQL Shack, mySQL, Stack Overflow, Sequelize.org
 - License badges: Sheilds.io
 
